@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color:#0c3;
+	width: 100%;
+	position:fixed;
+}
+nav{
+	background-color: #33f;
+	width: 20%;
+	float: left;
+	height: 800px;
+	padding-top: 50px;
+}
+article{
+	background-color: #f33;
+	width: 60%;
+	float:left;
+	height: 800px;
+	padding-top: 50px;
+}
+aside{
+	background-color: #639;
+	width: 20%;
+	float: right;
+	height: 800px;
+	padding-top: 50px;
+}
+footer{
+	background-color: #c3c;
+	width: 100%;
+	clear: both;
+
+}

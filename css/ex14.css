@@ -1,0 +1,18 @@
+.banner{
+    width:50%;
+    height: 414px;
+    margin: 0 auto;
+    animation: slide 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes slide{
+    0%, 30%{
+        background-image: url('../img/slide1-800x414.jpg');
+    }
+    35%, 65%{
+        background-image: url('../img/slide2-800x414.jpg');
+    }
+    70%, 100%{
+        background-image: url('../img/slide3-800x414.jpg');
+    }
+}
