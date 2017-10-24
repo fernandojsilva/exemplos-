@@ -20,7 +20,9 @@
         <div class="form-group">
           <label class="col-md-4 control-label" for="txtnome">Nome</label>  
           <div class="col-md-5">
-          <input id="txtnome" name="txtnome" type="text" placeholder="Digite seu Nome Completo" class="form-control input-md" required="">
+          <input id="txtnome" name="txtnome" type="text" 
+          placeholder="Digite seu Nome Completo" 
+          class="form-control input-md" required="" maxlength="50">
             
           </div>
         </div>
@@ -29,7 +31,8 @@
         <div class="form-group">
           <label class="col-md-4 control-label" for="txtcpf">CPF</label>  
           <div class="col-md-4">
-          <input id="txtcpf" name="txtcpf" type="text" placeholder="" class="form-control input-md" required="">
+          <input id="txtcpf" name="txtcpf" type="text" placeholder="" 
+          class="form-control input-md" required="" title="faltando digitos" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
           <span class="help-block">Digite apenas números</span>  
           </div>
         </div>
